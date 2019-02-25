@@ -1,16 +1,16 @@
 # Monero docker image
 
-[![Docker Repository on Quay](https://quay.io/repository/coinmetrics/fullnode-monero/status "Docker Repository on Quay")](https://quay.io/repository/coinmetrics/fullnode-monero)
+This is unofficial Monero docker image.
+
+It is being used internally at Coin Metrics, and is published in the hope it will be useful, but without any warranty. No support is available. You are using it at your own risk.
 
 ## Using image
+
+[![Docker Repository on Quay](https://quay.io/repository/coinmetrics/fullnode-monero/status "Docker Repository on Quay")](https://quay.io/repository/coinmetrics/fullnode-monero)
 
 ```
 docker pull quay.io/coinmetrics/fullnode-monero:<version>
 ```
-
-## Support
-
-This image is being used internally at Coin Metrics. No support is available. You are using it at your own risk.
 
 ## Security
 
