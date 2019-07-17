@@ -11,7 +11,7 @@ RUN set -ex; \
 
 ARG VERSION
 
-RUN curl -L https://github.com/monero-project/monero/releases/download/v${VERSION}/monero-linux-x64-v${VERSION}.tar.bz2 | tar -xj --strip-components=2 -C /usr/bin/
+RUN curl -L https://downloads.getmonero.org/cli/monero-linux-x64-v${VERSION}.tar.bz2 | tar -xj --strip-components=2 -C /usr/bin/
 
 RUN useradd -m -u 1000 -s /bin/bash runner
 USER runner
